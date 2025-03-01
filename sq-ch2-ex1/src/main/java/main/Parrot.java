@@ -2,7 +2,6 @@ package main;
 
 public class Parrot {
     private String name;
-    private int temp;
     public String getName() {
         return name;
     }
