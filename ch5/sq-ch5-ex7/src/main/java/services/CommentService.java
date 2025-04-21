@@ -13,7 +13,6 @@ public class CommentService {
   public void sendComment(Comment c) {
     CommentProcessor p = context.getBean(CommentProcessor.class);
 
-    // my iron lungs
     p.setComment(c); // CommentProcessor 인스턴스를 사용하여 Comment 인스턴스를 변경한다.
     p.processComment(c); // CommentProcessor 인스턴스를 사용하여 Comment 인스턴스를 변경한다.
     p.validateComment(c); // CommentProcessor 인스턴스를 사용하여 Comment 인스턴스를 변경한다.
