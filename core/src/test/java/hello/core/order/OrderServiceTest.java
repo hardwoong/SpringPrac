@@ -21,4 +21,3 @@ public class OrderServiceTest {
     Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
   }
 }
-// 렉이심하네
