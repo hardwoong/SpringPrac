@@ -36,6 +36,5 @@ public class ComponentFilterAppConfigTest {
       excludeFilters = @Filter(classes = MyExcludeComponent.class)
   )
   static class ComponentFilterAppConfig {
-    // dksvmtlq
   }
 }
